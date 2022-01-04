@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+    cursor: url("explorer3.png"), auto;
+    background-image:url("game-background-3.gif") ;
+    background-size:cover;
+    color: antiquewhite;
+  }
+  
+  .description {
+    min-height: 20vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .game {
+    min-height: 80vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ui-level {
+    font-size: 4rem;
+    padding-top: 2rem;
+  }
+  .ui-message {
+    font-size: 2rem;
+  }
+  
+  .level-two {
+    display: none;
+  }
+  .next-button {
+    padding: 1rem 3rem;
+    background: rgb(24, 114, 174);
+    color: white;
+    border: none;
+    opacity: 0;
+  }
+  .spooky-picture {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: none;
+  }
